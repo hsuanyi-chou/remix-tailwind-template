@@ -53,7 +53,7 @@ module.exports = {
     {
       files: ["**/*.{ts,tsx}"],
       plugins: ["@typescript-eslint", "import"],
-      parser: "@typescript-eslint/parser",
+      // parser: "@typescript-eslint/parser", // remove this and IDE auto lint will work.
       settings: {
         "import/internal-regex": "^~/",
         "import/resolver": {

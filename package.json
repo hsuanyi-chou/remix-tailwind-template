@@ -1,5 +1,5 @@
 {
-  "name": "remix-template",
+  "name": "remix-tailwind-template",
   "private": true,
   "sideEffects": false,
   "type": "module",
