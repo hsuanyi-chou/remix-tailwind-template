@@ -12,8 +12,11 @@ export const loader = () => {
 export default function Index() {
   const data = useLoaderData<typeof loader>();
   return (
-    <div style={{ fontFamily: 'system-ui, sans-serif', lineHeight: '1.8' }} className="flex flex-col gap-3 items-center">
-      <h1 className="text-3xl font-bold text-blue-500 underline">Welcome to Remix + tailwind</h1>
+    <div
+      style={{ fontFamily: 'system-ui, sans-serif', lineHeight: '1.8' }}
+      className="flex flex-col items-center gap-3"
+    >
+      <h1 className="text-3xl font-bold text-blue-500">Welcome to Remix + tailwind</h1>
       <p>current time: {data.date}</p>
       <ul>
         <li>
